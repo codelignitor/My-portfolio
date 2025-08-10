@@ -7,7 +7,7 @@ const CertificatesExperience = () => {
       id: 1,
       year: "July 2025 - Present",
       title: "Frontend Developer Intern",
-      description: "Built responsive web applications using React Framework (nextjs) and modern JavaScript frameworks for a startup company.",
+      description: "Developed and maintained responsive web applications for a startup, utilizing Next.js, React, and other modern JavaScript frameworks.",
       type: "experience",
       side: "left"
     },
@@ -15,7 +15,7 @@ const CertificatesExperience = () => {
       id: 2,
       year: "Dec-2024 - 2025",
       title: "WordPress Developer",
-      description: "Led development of enterprise web applications, mentored junior developers, and implemented DevOps practices.",
+      description: "Developed and customized responsive WordPress themes and plugins for a variety of client projects. Managed site content, and integrated essential features to enhance functionality and user experience.",
       type: "experience",
       side: "left"
     },
@@ -23,15 +23,14 @@ const CertificatesExperience = () => {
       id: 3,
       year: "April 2024",
       title: "Data Analysis with Python By IBM",
-      description: "Recognized as 'Top AI Innovator' at AI Summit 2022, delivering solutions to millions of users.",
-      type: "certificate",
+      description: "Completed a comprehensive course on data analysis, covering key skills in data manipulation, visualization, and building predictive models using Python libraries like pandas, NumPy, and scikit-learn.",      type: "certificate",
       side: "left"
     },
     {
       id: 4,
-      year: "March-2024 to April -2024",
+      year: "March-2024 to April-2024",
       title: "Python for Data Science By IBM",
-      description: "Founded Futura, growing to a team of 50 and pioneering AI applications in healthcare and finance.",
+      description: "Completed a comprehensive IBM course focused on data science with Python. Gained experience in using key libraries like NumPy for numerical computing, pandas for data manipulation, and Matplotlib for data visualization.",
       type: "certificate",
       side: "right"
     },
@@ -39,8 +38,8 @@ const CertificatesExperience = () => {
     {
       id: 5,
       year: "2019 - 2020",
-      title: "Git with GitHub from scratch - Workshop",
-      description: "Microsoft Learn Student Ambassadors and specialized in cloud infrastructure design and implementation.",
+      title: "Git with GitHub from scratch (MLSA)",
+      description: "Completed a hands-on workshop to learn the fundamentals of Git for version control and GitHub for collaborative projects, covering repositories, branching, merging, and pull requests.",
       type: "certificate",
       side: "right"
     },
@@ -53,8 +52,8 @@ const CertificatesExperience = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center py-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight text-gray-900 ">
-            My <span className="text-cyan-700 border-b-4 border-cyan-900">Milestones</span>
+          <h1 className="text-4xl font-bold mb-4 tracking-tight text-gray-900 ">
+            My <span className="text-blue-600 border-b-4 border-cyan-900">Milestones</span>
           </h1>
           <p className="text-gray-600 text-lg max-w-xl mx-auto">
             A journey through achievements, certifications, and professional growth over the years.

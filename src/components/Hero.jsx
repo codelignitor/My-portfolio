@@ -3,6 +3,7 @@ import TerminalCard from "./Terminal";
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 import { ArrowRightIcon } from '@heroicons/react/24/solid'; 
+import { ArrowDownIcon } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -17,20 +18,20 @@ export default function Hero() {
       <a
         href="#projects"
         className="inline-flex items-center gap-2 bg-indigo-600 text-white px-4 py-3 rounded-full shadow hover:bg-indigo-700 transition"
-      > <ArrowRightIcon className="w-5 h-5 " />
+      > <ArrowDownIcon className="w-5 h-5 " />
         View Projects 
       </a>
 
           {/* Social Icons */}
           <div className="flex items-center gap-4 mb-6 py-4 mx-auto">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="w-6 h-6 text-gray-700  hover:text-black transition" />
+            <a href="https://github.com/codelignitor" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="w-7 h-7 text-gray-700  hover:text-black transition" />
             </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="w-6 h-6 text-gray-700 hover:text-blue-800 transition" />
+            <a href="https://www.linkedin.com/in/harismuhammad789" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="w-7 h-7 text-gray-700 hover:text-blue-500 transition" />
             </a>
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="w-6 h-6 text-gray-700 hover:text-blue-600 transition" />
+            <a href="https://twitter.com/harris7887" target="_blank" rel="noopener noreferrer">
+              <FaTwitter className="w-7 h-7 text-gray-700 hover:text-blue-500 transition" />
             </a>
           </div>
       </div>

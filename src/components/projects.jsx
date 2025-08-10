@@ -48,7 +48,7 @@ const ProjectsSection = () => {
 
         {/* Projects Title */}
         <div className="text-center mb-12">
-          <h1 className="text-2xl md:text-4xl font-bold mb-4">
+          <h1 className="text-4xl font-bold mb-4">
             Latest <span className="text-cyan-400 border-b-4 border-cyan-400">Projects</span>
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">

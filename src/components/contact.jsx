@@ -61,7 +61,7 @@ const ContactSection = () => {
           {/* Title */}
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold mb-6">
-              Get In <span className="text-cyan-400">Touch</span>
+              Get In <span className="text-cyan-400 underline">Touch</span>
             </h1>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
               Have a project in mind? Drop me a message and let's make things happen!
@@ -72,13 +72,13 @@ const ContactSection = () => {
             {/* Contact Info */}
             <div className="space-y-6">
               <h3 className="text-2xl font-bold mb-6">
-                Let's Build Something <span className="text-cyan-400">Amazing</span>
+                Let's Build Something <span className="text-cyan-400 underline">Amazing</span>
               </h3>
               <p className="text-gray-400 mb-8">
                 Whether building new applications or discussing web development, I'm here to help bring your ideas to life.
               </p>
 
-              <div className="space-y-4">
+              <div className="space-y-8 mt-20">
                 <div className="flex items-center gap-4 p-4 bg-slate-800/50 rounded-lg border border-slate-700 hover:border-cyan-400/30 transition-colors">
                   <div className="w-10 h-10 bg-cyan-400/10 rounded-lg flex items-center justify-center">
                     <Mail className="w-5 h-5 text-cyan-400" />
@@ -98,6 +98,14 @@ const ContactSection = () => {
                     <p className="text-gray-400 text-sm">Usually within 24 hours</p>
                   </div>
                 </div>
+
+                {/* Fun Fact
+              <div className="p-6 bg-gradient-to-r from-cyan-400/10 to-blue-500/10 rounded-xl border border-cyan-400/20">
+                <h4 className="font-semibold text-cyan-400 mb-2">💡 Fun Fact</h4>
+                <p className="text-gray-300 text-sm">
+                  I reply to emails while enjoying my morning coffee ☕ - so your message might just be the perfect start to my day!
+                </p>
+              </div> */}
               </div>
             </div>
 

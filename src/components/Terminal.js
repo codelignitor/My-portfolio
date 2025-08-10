@@ -20,8 +20,8 @@ const TerminalCard = () => {
             <div className="p-6 flex-1 font-code text-xs lg:text-sm"> 
                 <span className="text-yellow-400">Haris@-workspace</span>
                 <pre><span className="text-gray-400">------------------</span></pre>
-                <p><span className="text-purple-400">OS</span>: Windows 10 </p>
-                <p><span className="text-purple-400">Host</span>: Localhost</p>
+                <p><span className="text-purple-400">OS</span>: Windows </p>
+                <p><span className="text-purple-400">Host</span>: Vercel</p>
                 <p><span className="text-purple-400">Kernel</span>: 5.15.0-dev</p>
                 <p><span className="text-purple-400">Languages</span>: JavaScript</p>
                 <p><span className="text-purple-400">Editor</span>: VSCode </p>
