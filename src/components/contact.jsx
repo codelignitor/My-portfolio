@@ -99,13 +99,12 @@ const ContactSection = () => {
                   </div>
                 </div>
 
-                {/* Fun Fact
+                {/* {/* Fun Fact */}
               <div className="p-6 bg-gradient-to-r from-cyan-400/10 to-blue-500/10 rounded-xl border border-cyan-400/20">
                 <h4 className="font-semibold text-cyan-400 mb-2">💡 Fun Fact</h4>
                 <p className="text-gray-300 text-sm">
-                  I reply to emails while enjoying my morning coffee ☕ - so your message might just be the perfect start to my day!
-                </p>
-              </div> */}
+                  I reply to emails while enjoying my morning coffee! ☕ </p>
+              </div> 
               </div>
             </div>
 
@@ -198,6 +197,15 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
+        {/* Scroll to top button */}
+        {/* <div className="fixed bottom-8 right-8">
+          <a href='#' 
+            className="w-12 h-12 bg-gray-800 border border-gray-700 rounded-full flex items-center justify-center text-green-400 hover:bg-gray-700 transition-colors">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+            </svg>
+          </a>
+        </div> */}
       </section>
     </div>
   );

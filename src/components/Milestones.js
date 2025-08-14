@@ -48,7 +48,7 @@ const CertificatesExperience = () => {
 
   return (
 
-    <section id='experience' className="min-h-screen bg-gray-100 text-gray-800 p-8">
+    <section id='experience' className="min-h-screen bg-gray-50 text-gray-800 p-8">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center py-12">

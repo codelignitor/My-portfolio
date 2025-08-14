@@ -18,6 +18,18 @@ const ProjectsSection = () => {
     },
     {
       id: 2,
+      title: "Netflix Landing page Clone",
+      description: "A responsive clone of the Netflix landing page, built with Next.js and styled using Tailwind CSS. This project was a learning exercise to solidify my skills in modern web development frameworks",
+      image: "../images/maxresdefault.jpg",
+      gradient: "from-gray-400 to-gray-600",
+      icon: <Briefcase className="w-6 h-6" />,
+      tags: ["Next.js", "TailwindCSS", ],
+      github: "https://github.com/codelignitor",
+      live: "#",
+      category: "Personal"
+    },
+    {
+      id: 3,
       title: "E-Shop Platform",
       description: "A scalable e-commerce platform with React, Node.js, and MongoDB. ",
       image: "../images/hq720.jpg",
@@ -27,18 +39,6 @@ const ProjectsSection = () => {
       github: "https://github.com/codelignitor",
       live: "#",
       category: "SE Project "
-    },
-    {
-      id: 3,
-      title: "Netflix Landing page Clone",
-      description: "My personal portfolio showcasing my work, built with HTML, TailwindCSS, and Alpine.js.",
-      image: "../images/maxresdefault.jpg",
-      gradient: "from-gray-400 to-gray-600",
-      icon: <Briefcase className="w-6 h-6" />,
-      tags: ["Next.js", "TailwindCSS", ],
-      github: "https://github.com/codelignitor",
-      live: "#",
-      category: "Personal"
     }
   ];
 
